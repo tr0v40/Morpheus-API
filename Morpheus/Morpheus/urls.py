@@ -20,11 +20,13 @@ from django.urls import path
 from rest_framework import routers
 from ComInv.api.viewsets import CommercialInvoiceViewSet
 from Clientes.api.viewsets import ClientesViewSet
+from Materiais.api.viewsets import MateriaisViewSet
 
 
 router = routers.DefaultRouter()
 router.register(r'cominv', CommercialInvoiceViewSet),
 router.register(r'clientes', ClientesViewSet)
+router.register(r'produtos', MateriaisViewSet)
 
 
 urlpatterns = [
