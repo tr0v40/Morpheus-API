@@ -21,12 +21,13 @@ from rest_framework import routers
 from ComInv.api.viewsets import CommercialInvoiceViewSet
 from Clientes.api.viewsets import ClientesViewSet
 from Materiais.api.viewsets import MateriaisViewSet
-
+from Pacotes.api.viewsets import PacotesViewSet
 
 router = routers.DefaultRouter()
 router.register(r'cominv', CommercialInvoiceViewSet),
 router.register(r'clientes', ClientesViewSet)
 router.register(r'produtos', MateriaisViewSet)
+router.register(r'pacotes', PacotesViewSet)
 
 
 urlpatterns = [

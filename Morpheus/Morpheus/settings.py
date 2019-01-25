@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'ComInv',
     'Clientes',
     'Materiais',
+    'Pacotes',
 ]
 
 MIDDLEWARE = [
