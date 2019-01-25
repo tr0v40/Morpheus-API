@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'Materiais',
     'Pacotes',
     'Portos',
+    'Ticket',
 ]
 
 MIDDLEWARE = [

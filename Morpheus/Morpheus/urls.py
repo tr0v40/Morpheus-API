@@ -23,6 +23,7 @@ from Clientes.api.viewsets import ClientesViewSet
 from Materiais.api.viewsets import MateriaisViewSet
 from Pacotes.api.viewsets import PacotesViewSet
 from Portos.api.viewsets import PortosViewSet
+from Ticket.api.viewsets import TicketViewSet
 
 
 router = routers.DefaultRouter()
@@ -31,6 +32,7 @@ router.register(r'clientes', ClientesViewSet)
 router.register(r'produtos', MateriaisViewSet)
 router.register(r'pacotes', PacotesViewSet)
 router.register(r'portos', PortosViewSet)
+router.register(r'ticket', TicketViewSet)
 
 
 urlpatterns = [
