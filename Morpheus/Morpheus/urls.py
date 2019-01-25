@@ -19,9 +19,12 @@ from django.conf.urls import url, include
 from django.urls import path
 from rest_framework import routers
 from ComInv.api.viewsets import CommercialInvoiceViewSet
+from Clientes.api.viewsets import ClientesViewSet
+
 
 router = routers.DefaultRouter()
-router.register(r'cominv', CommercialInvoiceViewSet)
+router.register(r'cominv', CommercialInvoiceViewSet),
+router.register(r'clientes', ClientesViewSet)
 
 
 urlpatterns = [
