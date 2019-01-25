@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'Pacotes',
     'Portos',
     'Ticket',
+    'Fornecedores',
 ]
 
 MIDDLEWARE = [
@@ -125,3 +126,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+MEDIA_ROOT = 'imagens'
+
+MEDIA_URL = '/imagens/'
