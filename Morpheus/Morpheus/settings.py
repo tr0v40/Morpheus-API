@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'Portos',
     'Ticket',
     'Fornecedores',
+    'Insercoes',
 ]
 
 MIDDLEWARE = [

@@ -25,6 +25,7 @@ from Pacotes.api.viewsets import PacotesViewSet
 from Portos.api.viewsets import PortosViewSet
 from Ticket.api.viewsets import TicketViewSet
 from Fornecedores.api.viewsets import FornecedoresViewSet
+from Insercoes.api.viewsets import InsercaoViewSet
 
 
 router = routers.DefaultRouter()
@@ -35,6 +36,7 @@ router.register(r'pacotes', PacotesViewSet)
 router.register(r'portos', PortosViewSet)
 router.register(r'ticket', TicketViewSet)
 router.register(r'fornecedores', FornecedoresViewSet)
+router.register(r'insercao', InsercaoViewSet)
 
 
 urlpatterns = [
