@@ -4,4 +4,4 @@ from Materiais.models import Materiais
 class MateriaisSerializer(ModelSerializer):
     class Meta:
         model = Materiais
-        fields = ('NCM', 'material')
+        fields = ('id', 'NCM', 'material')

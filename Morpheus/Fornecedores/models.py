@@ -10,9 +10,9 @@ class Fornecedores(models.Model):
     pais = models.CharField(max_length=150, blank=True, null=True)
     cep = models.IntegerField()
     cnpj = models.IntegerField()
-    tel = models.IntegerField()
-    fax = models.IntegerField()
-    cel = models.IntegerField()
+    tel = models.IntegerField(default='00000')
+    fax = models.IntegerField(default='00000')
+    cel = models.IntegerField(default='00000')
     logo = models.ImageField(upload_to='Fornecedores', null=True, blank=True)
     
     def __str__(self):

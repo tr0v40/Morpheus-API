@@ -4,4 +4,4 @@ from Portos.models import Portos
 class PortosSerializer(ModelSerializer):
     class Meta:
         model = Portos
-        fields = ('porto', 'cidade', 'pais', )
+        fields = ('id', 'porto', 'cidade', 'pais', )

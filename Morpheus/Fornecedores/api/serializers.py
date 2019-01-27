@@ -5,7 +5,7 @@ class FornecedoresSerializer(ModelSerializer):
     class Meta:
         model = Fornecedores
         fields = (
-            'empresa', 'rua', 'num', 'bairro', 'cidade', 
+            'id', 'empresa', 'rua', 'num', 'bairro', 'cidade', 
             'estado', 'pais', 'cep', 'cnpj', 
             'tel', 'fax', 'cel', 'logo'
             )
