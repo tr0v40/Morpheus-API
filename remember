@@ -1,0 +1,19 @@
+python3 manage.py startapp aplicacao
+
+CI------------------------
+
+CI1  12 1423     5435     ouro   pacote -----
+
+produto
+bags bags
+
+CI ------
+
+INSERCAO
+2 PRODUTO   BAG 3   
+4 PRODUTO   BAG 8
+4 PRODUTO   BAG 8
+4 PRODUTO   BAG 8
+4 PRODUTO   BAG 8
+4 PRODUTO   BAG 8
+4 PRODUTO   BAG 8
